@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.cse.cou.alamgir.booksstore.Fragments.LoginFragment">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:textSize="20sp"
+        android:src="@drawable/log"
+        android:layout_marginBottom="22dp"
+        android:text="Sign In"/>
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/gogle_signin"
+        android:layout_width="234dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Sign in with Google"
+        app:isDarkTheme="true" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/facebook_login"
+        android:layout_width="227dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:fb_radius="2dp"
+        android:layout_marginTop="10dp"
+        app:fb_iconPosition="left"
+        app:fb_fontIconSize="17sp"
+        app:fb_iconPaddingRight="10dp"
+        app:fb_textSize="15sp"
+        app:fb_text="Sign in with Facebook"
+        app:fb_textColor="#ffffff"
+        app:fb_defaultColor="#39579B"
+        app:fb_focusColor="#6183d2"
+        app:fb_fontIconResource="&#xf230;"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>
